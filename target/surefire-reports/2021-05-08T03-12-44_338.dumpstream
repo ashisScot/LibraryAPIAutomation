@@ -1,0 +1,4 @@
+# Created at 2021-05-08T03:12:48.152
+Boot Manifest-JAR contains absolute paths in classpath 'E:\AshisWork\NewWorkspace\apiAuromation\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

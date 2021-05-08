@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="LibraryAPITest">
+	<test name="ADD_DELETE_API_Test">
+		<classes>
+			<class name="Runner.TestRunner" />
+		</classes>
+	</test>
+</suite>
