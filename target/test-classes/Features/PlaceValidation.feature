@@ -11,6 +11,7 @@ Examples:
 |Address|Language|name|phoneNum|
 |29, side layout, cohen 09|French|PSG|8562146585|
 |London|English|Hogwarts|9456128754|
+|Madrid|Spanish|Santiago Bernabue|9456128754|
 
 
 @DELETEPLACE_API
