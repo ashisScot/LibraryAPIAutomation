@@ -4,7 +4,7 @@
 <suite name="LibraryAPITest">
 	<test name="ADD_DELETE_API_Test">
 		<classes>
-			<class name="Runner.TestRunner" />
+			<class name="parallel.TestRunner" />
 		</classes>
 	</test>
 </suite>
