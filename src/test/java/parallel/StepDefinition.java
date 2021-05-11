@@ -1,4 +1,4 @@
-package stepDefinations;
+package parallel;
 
 import io.cucumber.java.en.*;
 import io.restassured.builder.ResponseSpecBuilder;
