@@ -1,4 +1,4 @@
-package stepDefinations;
+package parallel;
 
 import io.cucumber.java.en.*;
 import io.restassured.builder.ResponseSpecBuilder;
@@ -23,7 +23,8 @@ public class StepDefinition extends Utils {
 	ResponseSpecification respnseSpec;
 	Response response;
 	TestDataBuilder testData = new TestDataBuilder();
-	static String place_Id ;
+	String place_Id = "" ;
+	static String deletePlace_Id;
 	
 	@Given("user provides for Add Place Payload for {string} {string} {string} {string}")
 	public void userProvidesForAddPlacePayload(String address, String language, String name, String phoneNumber)
@@ -63,7 +64,7 @@ public class StepDefinition extends Utils {
 	
 	@Given("^user provides Delete place payload$")
 	public void userProvidesDeletePlacePayload()throws IOException {
-		req = given().spec(setRequest()).body(testData.deletePlacePayload(place_Id));
+		req = given().spec(setRequest()).body(testData.deletePlacePayload(deletePlace_Id));
 		
 	}
 
